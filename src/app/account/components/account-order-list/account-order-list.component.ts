@@ -21,6 +21,7 @@ export class AccountOrderListComponent implements OnInit {
     ngOnInit() {
         this.orders$ = this.dataService.query<GetOrderListQuery, GetOrderListQueryVariables>(GET_ORDER_LIST, {
             options: {
+                take: 50,
                 filter: {
                     active: {
                         eq: false,
