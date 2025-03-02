@@ -8,7 +8,7 @@ export const environment = {
     apiPort: 3000,
     shopApiPath: 'shop-api',
     baseHref: '/',
-    channelID: '',
+    channelID: 'oilios.sk',
     tokenMethod: 'bearer',
 };
 

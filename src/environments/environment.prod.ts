@@ -4,6 +4,6 @@ export const environment = {
     apiPort: 443,
     shopApiPath: 'shop-api',
     baseHref: '/',
-    channelID: '',
+    channelID: 'oilios.sk',
     tokenMethod: 'cookie',
 };
